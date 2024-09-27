@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>商品展示首页</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: rgba(244, 239, 235, 0.941);
+            padding: 30px;
+            text-align: center;
+            color: rgb(27, 209, 184);
+        }
+
+        aside {
+            display: block;
+            width: 20%; /* 左右分类的宽度 */
+            float: left; /* 左浮动 */
+            padding: 15 px; /* 内边距 */
+        }
+
+        .main-photo {
+            width: 60%; /* 主内容宽度 */
+            float: left; /* 左浮动 */
+            text-align: center;
+            padding: 0px; /* 主内容的左右内边距 */
+        }
+
+
+        .category {
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .image-gallery {
+            clear: both; /* 清除浮动以确保图片展示模块在其下方 */
+            padding: 15px;
+            text-align: center;
+        }
+
+        .image-gallery img {
+            width: 150px;
+            height: auto;
+            margin: 10px;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #f1f1f1;
+        }
+    </style>
+</head>
+<body>
+    <!-- 搜索框模块 -->
+    <header>
+        <h1>欢迎来到j哥日常</h1>
+        <div class="search-bar">
+            <input type="text" placeholder="查找j哥美照" />
+            <button>搜索</button>
+        </div>
+    </header>
+
+    <!-- 主体内容模块 -->
+    <div class="container">
+        <!-- 左侧分类 -->
+        <aside>
+            <h2>左侧分类</h2>
+            <div class="category">生日</div>
+            <img src="C:\Users\胡耀\Desktop\html\微信图片_20240927091829.jpg" alt="图片1" style="width: 200px; height: 200px;" />
+            <img src="C:\Users\胡耀\Desktop\html\微信图片_20240927092414.jpg" alt="图片2" style="width: 200px; height: 200px;" />
+        </aside>
+        
+
+        <!-- 中间照片展示 -->
+        <div class="main-photo">
+            <h2>帅气自拍</h2>
+            <img src="C:\Users\胡耀\Desktop\html\微信图片_20240927091540.jpg" alt="主图" style="width: 200px; height: 200px"/>
+            <img src="C:\Users\胡耀\Desktop\html\微信图片_20240927093237.jpg" alt="图片3" style="width: 200px; height: 200px"/>
+         
+        </div>
+
+        <!-- 右侧分类 -->
+        <aside>
+            <h2>开心的美国生活捏</h2>
+            <div class="category">初到艾美莉卡</div>
+            <img src="C:\Users\胡耀\Desktop\html\微信图片_20240927093702.jpg" alt="主图" style="width: 200px; height: 200px"/>
+            <img src="C:\Users\胡耀\Desktop\html\微信图片_20240927093705.jpg" alt="图片3" style="width: 200px; height: 200px"/>
+        </aside>
+    </div>
+
+    <!-- 图片展示模块 -->
+    <div class="image-gallery">
+        <h2>更多图片</h2>
+        <img src="image3.jpg" alt="图片3" />
+        <img src="image3.jpg" alt="图片3" />
+        <img src="image4.jpg" alt="图片4" />
+    </div>
+
+    <!-- 版权信息模块 -->
+    <footer>
+        <p>计算机233班.</p>
+        <p>胡耀荣</p>
+    </footer>
+</body>
+</html>
